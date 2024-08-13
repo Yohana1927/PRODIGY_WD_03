@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    user-select: none;
+}
+body {
+    background-color: rgb(1, 1, 24);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: yellow;
+}
+p {
+    color: yellowgreen;
+}
+#result {
+    color: green;
+}
+b {
+    color: rgb(94, 141, 24)
+}
+#box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    height: 375px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+.sub {
+    display: flex;
+}
+.s {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #D3D3D3;
+    background-color: rgb(6, 11, 51);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.s:focus {
+    outline: none;
+}
+#s1 {
+    border-right: 3px solid greenyellow;
+    border-bottom: 3px solid greenyellow;
+}
+#s2 {
+    border-right: 3px solid greenyellow;
+    border-bottom: 3px solid greenyellow;
+}
+#s3 {
+    border-bottom: 3px solid greenyellow;
+    border-right: 3px solid greenyellow;
+}
+#s4 {
+    border-right: 3px solid greenyellow;
+    border-bottom: 3px solid greenyellow;
+}
+#s5 {
+    border-right: 3px solid greenyellow;
+    border-bottom: 3px solid greenyellow;
+}
+#s6 {
+    border-bottom: 3px solid greenyellow;
+    border-right: 3px solid greenyellow;
+}
+#s7 {
+    border-right: 3px solid greenyellow;
+    border-bottom: 3px solid greenyellow;
+}
+#s8 {
+    border-right: 3px solid greenyellow;
+    border-bottom: 3px solid greenyellow;
+}
+#s0 {
+    border-right: 3px solid greenyellow;
+    border-bottom: 3px solid greenyellow;
+}
+#restartButton {
+    color: rgb(1, 1, 24);
+    background-color: greenyellow;
+    padding: 2.5%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#restartButton:hover {
+    padding: 3% 5% 3% 5%;
+}
+h2 {
+    color: rgb(14, 216, 14);
+}
